@@ -11,9 +11,7 @@ HETA_admin_mdp
 RESTES A FAIRE :
 - Boutton : monter vers le haut
 - Atao entourré orange le sary rehefa mi-hover
-- Footer apina ny adresse
-Siège Social : 32, rue Barbes 92120 Montrouge
-Bureau Administratif et cabinet : 40, rue de la Gare 94 110 Arcueil
+- Footer atao otrn ny contact
 
 
 - Bouttons :

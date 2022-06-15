@@ -192,7 +192,7 @@ figure {
     width: 100%; }
     .devinbox_footer {
       font-size: 13px;
-      margin-top: -65px;
+      /*margin-top: -65px;*/
     }
     .footer_padding {
       padding-top: 20px; padding-bottom: 20px;

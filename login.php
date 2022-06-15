@@ -130,18 +130,54 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<p class="colorlib-lead" style="font-size: 13px;">
-								<b>Hêta</b> <br>
-								<i class="icon-globe-outline" style="color: #c34121;"></i> Siège Social : 32, rue Barbes 92120 Montrouge <br>
-								<i class="icon-location" style="color: #c34121;"></i> Bureau Administratif et cabinet : 40, rue de la Gare 94 110 Arcueil <br>
-								contact@heta-france.fr
-							</p>
-							<p>
-								<a href="contact.html" class="btn btn-primary btn-learn">Nous contacter</a>
-							</p>
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										Siège administratif et social : <br> 32, Rue Barbès 92 120 MONTROUGE
+									</p>
+								</div>
+							</div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-location"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										Agence bureau d’études et conseils : <br>  40 , rue de la Gare 94 110 Arcueil
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-mail"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										<a href="">contact@heta-france.fr</a>
+										<br><br>
+									</p>
+								</div>
+							</div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										<a href="tel://">01 46 65 17 09</a><br>
+										<a href="tel://">06 64 49 11 18</a>
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
+					<!-- <div style="padding-top: 20px;"></div> -->
 					<div class="row">
 						<div class="col-md-12">
 							<center>
