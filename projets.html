@@ -60,6 +60,10 @@
 		$('.partie_trois').hide();
 		$('.partie_quatre').hide();
 		$('.partie_cinq').hide();
+		$('.partie_six').hide();
+		$('.partie_sept').hide();
+		$('.partie_huit').hide();
+		$('.partie_neuf').hide();
 
 	    $('#region_un').click(function() {
 	      	$('.partie_un').fadeIn("slow");
@@ -67,6 +71,10 @@
 			$('.partie_trois').hide();
 			$('.partie_quatre').hide();
 			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
 	    });
 
 	    $('#region_deux').click(function() {
@@ -75,6 +83,10 @@
 			$('.partie_trois').hide();
 			$('.partie_quatre').hide();
 			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
 	    });
 
 	    $('#region_trois').click(function() {
@@ -83,6 +95,10 @@
 			$('.partie_trois').fadeIn("slow");
 			$('.partie_quatre').hide();
 			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
 	    });
 
 	    $('#region_quatre').click(function() {
@@ -91,6 +107,10 @@
 			$('.partie_trois').hide();
 			$('.partie_quatre').fadeIn("slow");
 			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
 	    });
 
 	    $('#region_cinq').click(function() {
@@ -99,6 +119,58 @@
 			$('.partie_trois').hide();
 			$('.partie_quatre').hide();
 			$('.partie_cinq').fadeIn("slow");
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
+	    });
+
+	    $('#region_six').click(function() {
+	      	$('.partie_un').hide();
+	      	$('.partie_deux').hide();
+			$('.partie_trois').hide();
+			$('.partie_quatre').hide();
+			$('.partie_cinq').hide();
+			$('.partie_six').fadeIn("slow");
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
+	    });
+
+	    $('#region_sept').click(function() {
+	      	$('.partie_un').hide();
+	      	$('.partie_deux').hide();
+			$('.partie_trois').hide();
+			$('.partie_quatre').hide();
+			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').fadeIn("slow");
+			$('.partie_huit').hide();
+			$('.partie_neuf').hide();
+	    });
+
+	    $('#region_huit').click(function() {
+	      	$('.partie_un').hide();
+	      	$('.partie_deux').hide();
+			$('.partie_trois').hide();
+			$('.partie_quatre').hide();
+			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').fadeIn("slow");
+			$('.partie_neuf').hide();
+	    });
+
+	    $('#region_neuf').click(function() {
+	      	$('.partie_un').hide();
+	      	$('.partie_deux').hide();
+			$('.partie_trois').hide();
+			$('.partie_quatre').hide();
+			$('.partie_cinq').hide();
+			$('.partie_six').hide();
+			$('.partie_sept').hide();
+			$('.partie_huit').hide();
+			$('.partie_neuf').fadeIn("slow");
 	    });
 
 	});
@@ -118,9 +190,9 @@
 
 		.ul_region {
 			list-style-type: none; 
-			word-spacing: 50px;
+			word-spacing: 12px;
 		}
-		h3 {
+		.h3_projet {
 			color: white;
 		}
 
@@ -172,16 +244,20 @@
 					<div class="row">
 						<!-- Ireto no ahena 6-3-3 raha misy problème -->
 						<div class="col-md-12 col-md-offset-6 col-md-pull-6 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Nos projets</span>
+							<!-- <span class="heading-meta">Nos projets</span> -->
 							<h2 class="colorlib-heading">
-								Nos réalisations
+								Nos projets
 							</h2>
 							<ul class="ul_region">
-								<li class="region" id="region_un">Région_Un</li>
-								<li class="region" id="region_deux">Région_Deux</li>
-								<li class="region" id="region_trois">Région_Trois</li>
-								<li class="region" id="region_quatre">Région_Quatre</li>
-								<li class="region" id="region_cinq">Région_Cinq</li>
+								<li class="region" id="region_un">Arceuil</li>
+								<li class="region" id="region_deux">Bagneux</li>
+								<li class="region" id="region_trois">Cachan</li>
+								<li class="region" id="region_quatre">Chatillon</li>
+								<li class="region" id="region_cinq">Clamart</li>
+								<li class="region" id="region_six">Gentilly</li>
+								<li class="region" id="region_sept">Paris</li>
+								<li class="region" id="region_huit">Banlieues_Sud_divers</li>
+								<li class="region" id="region_neuf">Maisons_de_campagne</li>
 							</ul>	
 							<hr>					
 						</div>
@@ -193,7 +269,7 @@
 							<div class="project" style="background-image: url(images/img-1.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -205,7 +281,7 @@
 							<div class="project" style="background-image: url(images/img-2.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -217,7 +293,7 @@
 							<div class="project" style="background-image: url(images/img-3.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -232,7 +308,7 @@
 							<div class="project" style="background-image: url(images/img-4.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -247,7 +323,7 @@
 							<div class="project" style="background-image: url(images/img-5.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -259,7 +335,7 @@
 							<div class="project" style="background-image: url(images/img-6.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -274,7 +350,7 @@
 							<div class="project" style="background-image: url(images/img-7.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -286,7 +362,7 @@
 							<div class="project" style="background-image: url(images/img-8.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -301,7 +377,7 @@
 							<div class="project" style="background-image: url(images/img-9.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
@@ -313,7 +389,115 @@
 							<div class="project" style="background-image: url(images/img-5.jpg);">
 								<div class="desc">
 									<div class="con">
-										<h3>Projet test</h3>
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						</div>
+
+						<div class="partie_six">
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-9.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						</div>
+
+						<div class="partie_sept">
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-9.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						</div>
+
+						<div class="partie_huit">
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-9.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						</div>
+
+						<div class="partie_neuf">
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-9.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
+										<span>Petite description</span>
+									</div>
+								</div>
+							</div>
+							</a>
+						</div>
+						<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
+							<a href="projets_voir.html">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3 class="h3_projet">Projet test</h3>
 										<span>Petite description</span>
 									</div>
 								</div>
