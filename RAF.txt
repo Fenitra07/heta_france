@@ -9,6 +9,8 @@ HETA_admin_mdp
 
 
 RESTES A FAIRE :
+- Efa afaka ampidirina le sary ao am projet 
+
 - Boutton : monter vers le haut
 - Atao entourré orange le sary rehefa mi-hover
 - Footer atao otrn ny contact
