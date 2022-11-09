@@ -1,0 +1,25 @@
+<html>
+<head>
+<title></title>
+
+<script language="JavaScript">
+i=0;
+function couleur()
+{
+	tabColoris = new Array ("#ffffff","black");
+	if (i+1 == tabColoris.length) i=0;
+	else i++;
+	document.getElementById("clignote").setAttribute('color',tabColoris[i]);
+	setTimeout("couleur()",500);
+}
+</script>
+
+</head>
+
+<body onload="couleur()">
+
+<font id="clignote"><span style="background-color: #c34121;">Prendre rendez-vous</span></font>
+
+</form>
+</body>
+</html>

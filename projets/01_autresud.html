@@ -1,0 +1,432 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HETA</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="../favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="../css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="../css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="../css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="../css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="../fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<style type="text/css">
+		.img_premier_plan {
+		  height: 100%;
+		  width: 100%;
+		}	
+
+		.img_cases {
+		  vertical-align: middle;
+		  width: 100%;
+		  height: 50px;
+		}
+
+
+		/* Position the image container (needed to position the left and right arrows) */
+		/*.container {
+		  position: relative;
+		}*/
+
+		/* Hide the images by default */
+		.mySlides {
+		  display: none;
+		}
+
+		/* Add a pointer when hovering over the thumbnail images */
+		.cursor {
+		  cursor: pointer;
+		}
+
+		/* Next & previous buttons */
+		.prev,
+		.next {
+		  cursor: pointer;
+		  position: absolute;
+		  top: 40%;
+		  width: auto;
+		  padding: 16px;
+		  margin-top: -50px;
+		  color: white;
+		  font-weight: bold;
+		  font-size: 20px;
+		  border-radius: 0 3px 3px 0;
+		  user-select: none;
+		  -webkit-user-select: none;
+		}
+
+		/* Position the "next button" to the right */
+		.next {
+		  right: 0;
+		  border-radius: 3px 0 0 3px;
+		}
+
+		/* On hover, add a black background color with a little bit see-through */
+		.prev:hover,
+		.next:hover {
+		  background-color: rgba(0, 0, 0, 0.8);
+		}
+
+
+		/* Container for image text */
+		.caption-container {
+		  text-align: center;
+		  background-color: #222;
+		  padding: 2px 16px;
+		  color: white;
+		}
+
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+
+		/* Six columns side by side */
+		.column {
+		  float: left;
+		  
+		  text-align: center;
+		  width: 16.66%;
+		}
+
+		/* Add a transparency effect for thumnbail images */
+		.demo {
+		  opacity: 0.6;
+		}
+
+		.active,
+		.demo:hover {
+		  opacity: 1;
+		}
+	</style>
+
+	<!-- Clignotement -->
+	<script language="JavaScript">
+		i=0;
+		function couleur()
+		{
+			tabColoris = new Array ("#ffffff","black");
+			if (i+1 == tabColoris.length) i=0;
+			else i++;
+			document.getElementById("clignote").setAttribute('color',tabColoris[i]);
+			setTimeout("couleur()",500);
+		}
+	</script>
+
+
+
+	</head>
+	<body onload="couleur()">
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<h1 id="colorlib-logo"><a href="../index.html"><img style="width: 140px;" src="../images/logo_heta.png"></a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="../index.html">Qui sommes-nous ?</a></li>
+					<li><a href="../domaines.html">Expertise en projets immobiliers</a></li>
+					<li class="colorlib-active"><a href="../projets.html">Nos projets</a></li>
+					<li>
+						<a href="../blog.php">
+							D<sup>r</sup> maisons et actualités <i class="icon-phone"></i>
+						</a>
+					</li>
+
+					<li><a href="../blog.php"><font id="clignote"><span style="background-color: #c34121;">Prendre rendez-vous</span></font></a></li>
+					
+					<li><a href="../contact.html">Coordonnées</a></li>
+				</ul>
+			</nav>
+
+			<div class="colorlib-footer">
+				<p class="footer_padding">
+					<small>
+						<i>"Votre projet, <br> votre signature"</i>
+					</small>
+				</p>
+				<ul class="footer_padding">
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+				<p class="footer_padding">
+					<small>
+						Bureau d'études assuré dans le cadre de son activité
+					</small>
+				</p>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<div class="colorlib-work" style="padding-bottom: 32em;">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Nos projets / #Commune</span>
+							<h2 class="colorlib-heading">Reprise d’un local de restauration</h2>
+						</div>
+					</div>
+
+					<div class="row">
+						
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							
+							  <div class="mySlides">
+							    <img class="img_premier_plan" src="01_autresud/img-1.jpg">
+							  </div>
+
+							  <div class="mySlides">
+							    <img class="img_premier_plan" src="01_autresud/img-2.jpg">
+							  </div>
+
+							  <div class="mySlides">
+							    <img class="img_premier_plan" src="01_autresud/img-3.jpg">
+							  </div>
+							    
+							  <div class="mySlides">
+							    <img class="img_premier_plan" src="01_autresud/img-4.jpg">
+							  </div>
+
+							  <!-- <div class="mySlides">
+							    <img src="images/img-8.jpg">
+							  </div>
+							    
+							  <div class="mySlides">
+							    <img src="images/img-9.jpg">
+							  </div> -->
+							    
+							  <a class="prev" onclick="plusSlides(-1)">❮</a>
+							  <a class="next" onclick="plusSlides(1)">❯</a>
+
+							  <div class="row">
+							  	<div class="col-md-12 mt-2 animate-box" data-animate-effect="fadeInLeft" style="margin-top: 5px;">
+
+							    <div class="column">
+							      <img class="demo cursor img_cases" src="01_autresud/img-1.jpg" style="width:100%; height: 20%" onclick="currentSlide(1)">
+							    </div>
+							    <div class="column">
+							      <img class="demo cursor img_cases" src="01_autresud/img-2.jpg" style="width:100%; height: 20%" onclick="currentSlide(2)">
+							    </div>
+							    <div class="column">
+							      <img class="demo cursor img_cases" src="01_autresud/img-3.jpg" style="width:100%; height: 20%" onclick="currentSlide(3)">
+							    </div>
+							    <div class="column">
+							      <img class="demo cursor img_cases" src="01_autresud/img-4.jpg" style="width:100%; height: 20%" onclick="currentSlide(4)">
+							    </div>
+							    <!-- <div class="column">
+							      <img class="demo cursor" src="images/img-8" style="width:100%" onclick="currentSlide(5)">
+							    </div>    
+							    <div class="column">
+							      <img class="demo cursor" src="images/img-9" style="width:100%" onclick="currentSlide(6)">
+							    </div> -->
+							    </div>
+							  </div>
+
+								
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project">
+								<div class="con">
+									<label>Type de projet :</label><span> Reprise d’un local de restauration </span><br>
+									<label>Localisation :</label><span> Le Kremlin-Bicêtre </span><br>
+									<label>Année du projet :</label><span> 2022</span><br>
+									<label>Type de mission :</label>
+									<span>
+										<br>
+											- Diagnostic et conseils lors de la  visite du local <br>
+											- Conception de l’aménagement  intérieur et de la terrasse<br>
+											- Conception de la façade et de l’enseigne (plans et vues 3D)<br>
+											- Elaboration des dossiers de demande d’autorisation travaux de modification
+										<ul>
+											<li>Façades</li>
+											<li>Enseigne</li>
+											<li>Autorisation de terrasse sur la voie publique</li>
+										</ul>
+									</span>
+									<label>Descriptif :</label>
+									<p style="text-align: justify;"> 
+										Depuis la visite du local, jusqu’à son ouverture cette rentrée de septembre 2022, notre bureau d’étude HETA a conseillé et accompagné cet enseigne de restaurant qui a déjà une boutique à Paris 5 ème rue Mouffetard,   tout au long de ses démarches administratives, en rendant fluide et dynamique les échanges avec le service urbanisme et commerce de la mairie du Kremlin-Bicêtre. <br>
+										Une façade au design simple et épuré, facile à entretenir tout en restant  pratique pour « projeter » la salle  vers la terrasse extérieure. Un soin particulier a été donné à chaque détail : le store intégré à l’enseigne, les baies vitrées coulissantes pouvant être complètement cachées en ouverture maximum,  et un grand soin dans le choix des matériaux et de leurs couleurs, sous les bons conseils des Architectes des Bâtiments de France. <br>
+										Se démarquer par la qualité fut le souhait du propriétaire de cette chaine qui a très bonne réputation dans les réseaux sociaux, dans cette rue où s’alignent de nombreuses enseignes concurrentes.
+
+									</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+
+					
+				</div>
+			</div>
+
+			<div id="get-in-touch" class="colorlib-bg-color">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<h3>Coordonnées</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe-outline"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										Siège administratif et social : <br> 32, Rue Barbès 92 120 MONTROUGE
+									</p>
+								</div>
+							</div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-location"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										Agence bureau d’études et conseils : <br>  40 , rue de la Gare 94 110 Arcueil
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-mail"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										<a href="">admin@heta-france.fr</a>
+										<br><br>
+									</p>
+								</div>
+							</div>
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>
+										<a href="tel://">01 46 65 17 09</a><br>
+										<a href="tel://">07 88 91 75 12</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- <div style="padding-top: 20px;"></div> -->
+					<div class="row">
+						<div class="col-md-12">
+							<center>
+								<p class="devinbox_footer">
+									<small>
+										&copy;Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <br> | Made with passion by <a href="https://www.pricing.dev-inbox.com" target="_blank">Devinbox</a>
+									</small>
+								</p>
+							</center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script src="../js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="../js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="../js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="../js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="../js/jquery.flexslider-min.js"></script>
+	<!-- Sticky Kit -->
+	<script src="../js/sticky-kit.min.js"></script>
+	<!-- Owl carousel -->
+	<script src="../js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="../js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="../js/main.js"></script>
+
+
+	<!-- SLIDESHOW -->
+	<script type="text/javascript">
+	let slideIndex = 1;
+	showSlides(slideIndex);
+
+	function plusSlides(n) {
+	  showSlides(slideIndex += n);
+	}
+
+	function currentSlide(n) {
+	  showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+	  let i;
+	  let slides = document.getElementsByClassName("mySlides");
+	  let dots = document.getElementsByClassName("demo");
+	  let captionText = document.getElementById("caption");
+	  if (n > slides.length) {slideIndex = 1}
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+	    slides[i].style.display = "none";
+	  }
+	  for (i = 0; i < dots.length; i++) {
+	    dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "block";
+	  dots[slideIndex-1].className += " active";
+	  captionText.innerHTML = dots[slideIndex-1].alt;
+	}
+	</script>
+
+	</body>
+</html>
+

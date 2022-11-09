@@ -1,0 +1,38 @@
+Orange : #c34121; (Hermès)
+Gris noir : #545454;
+Gris clair : #F0F0F0; (ancien sidebar)
+Gris footer : #fafafa
+
+Authentification : 
+HETA_admin
+HETA_admin_mdp
+
+
+RESTES A FAIRE :
+- Efa afaka ampidirina le sary ao am projet 
+
+- Boutton : monter vers le haut
+- Atao entourré orange le sary rehefa mi-hover
+- Footer atao otrn ny contact
+
+
+- Bouttons :
+region_un
+region_deux
+region_trois
+region_quatre
+region_cinq
+
+- Partie :
+partie_un
+partie_deux
+partie_trois
+partie_quatre
+partie_cinq
+
+
+------------------------------------------------
+liaison entre le site Heta et Haintso
+
+Heta en anglais francais arabe
+Haintso en français et malgache
