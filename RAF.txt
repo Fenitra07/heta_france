@@ -30,7 +30,6 @@ partie_trois
 partie_quatre
 partie_cinq
 
-
 ------------------------------------------------
 liaison entre le site Heta et Haintso
 
