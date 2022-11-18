@@ -129,7 +129,7 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Qui sommes-nous ?</a></li>
-					<li><a href="domaines.html">Expertise en projets immobiliers</a></li>
+					<li><a href="domaines.html">Expert en projets immobiliers</a></li>
 					<li><a href="projets.html">Nos projets</a></li>
 					<li class="colorlib-active">
 						<a href="blog.php">
@@ -196,9 +196,9 @@
 									<div class="col-md-12">
 										<div class="colorlib-feature animate-box" data-animate-effect="fadeInLeft">
 											<p style="text-align: justify;">
-												Vous avez un projet d’achat, des questions <button class="btn" id="show">Lire ...</button><span class="menu" style="display: none;">sur des démarches administratives, sur la méthodologie pour appréhender cet univers complexe qu’est le marché immobilier, et pourtant vous devez prendre des décisions qui peuvent impliquer des économie de toute une vie . 
+												Vous avez un projet d’achat, des questions <button class="btn" id="show">Lire ...</button><span class="menu" style="display: none;">sur des démarches administratives, sur la méthodologie pour appréhender cet univers complexe qu’est le marché immobilier, et pourtant vous devez prendre des décisions qui peuvent impliquer des économies de toute une vie . 
 												<br>
-												Depuis plus de 15 ans,  notre expérience nous mène à côtoyer quotidiennement  tous les acteurs de la construction,   toujours l’échelle du particulier, de la maison individuelle,  de l’appartement, tels :  Les services urbanisme des mairies avec la plupart desquelles nous avons noué d’étroites relations (surtout en Île-de-France) , les bureaux d’études ingénieurs, les géotechniciens, l’Inspection générale des Carrières (une grande partie du foncier en île de France se trouve en zone de carrières ),les architectes DPLG ( obligatoire pour tous projet supérieurs 150 m2 de surface de plancher),  les thermiciens , les géomètres, les entreprises et artisans  de la construction, les fournisseurs etc. 
+												Depuis plus de 15 ans,  notre expérience nous mène à côtoyer quotidiennement  tous les acteurs de la construction,   toujours à l’échelle du particulier, de la maison individuelle,  de l’appartement, tels :  Le service urbanisme des mairies avec la plupart desquelles nous avons noué d’étroites relations (surtout en Île-de-France) , les bureaux d’études ingénieurs, les géotechniciens, l’Inspection générale des Carrières (une grande partie du foncier en île de France se trouve en zone de carrières ),les architectes DPLG ( obligatoire pour tous projets supérieurs 150 m2 de surface de plancher),  les thermiciens , les géomètres, les entreprises et artisans  de la construction, les fournisseurs etc. 
 												</span>
 												<button class="btn " id="hide">Voir moins</button>
 											</p>

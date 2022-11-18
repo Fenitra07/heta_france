@@ -57,7 +57,7 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Qui sommes-nous ?</a></li>
-					<li><a href="domaines.html">Expertise en projets immobiliers</a></li>
+					<li><a href="domaines.html">Expert en projets immobiliers</a></li>
 					<li><a href="projets.html">Nos projets</a></li>
 					<li>
 						<a href="blog.php">

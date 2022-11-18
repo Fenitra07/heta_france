@@ -81,9 +81,9 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Qui sommes-nous ?</a></li>
-					<li><a href="domaines.html">Expertise en projets immobiliers</a></li>
+					<li><a href="domaines.html">Expert en projets immobiliers</a></li>
 					<li><a href="projets.html">Nos projets</a></li>
-					<li>
+					<li class="colorlib-active">
 						<a href="blog.php">
 							D<sup>r</sup> maisons et actualités <i class="icon-phone"></i>
 						</a>
