@@ -1,0 +1,8 @@
+{
+    "name": "www-deploy/pos-api",
+    "license": "proprietary",
+    "type": "project",
+    "require": {
+        "swiftmailer/swiftmailer": "^6.0"
+    }
+}

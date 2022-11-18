@@ -35,3 +35,14 @@ liaison entre le site Heta et Haintso
 
 Heta en anglais francais arabe
 Haintso en français et malgache
+
+<li class="region" id="region_un">Tous les projets</li>
+<li class="region" id="region_deux">Arcueil</li>          (1)
+<li class="region" id="region_trois">Bagneux</li>        (1)
+<li class="region" id="">Cachan</li>
+<li class="region" id="region_quatre">Chatillon</li>
+<li class="region" id="region_cinq">Clamart</li>
+<li class="region" id="region_six">Gentilly</li>        (1) 
+<li class="region" id="region_sept">Paris</li>
+<li class="region" id="region_huit">Banlieues_Sud_divers</li>    (1)
+<li class="region" id="region_neuf">Maisons_de_campagne</li>
