@@ -40,13 +40,15 @@
             try {
 
                 $transport = (new Swift_SmtpTransport(PARAMS['mailer_host'], PARAMS['mailer_port']))
+                        ->setUsername(PARAMS['mailer_user'])
+                        ->setPassword(PARAMS['mailer_password'])
                 ;
         // Create the Mailer using your created Transport
                 $mailer = new Swift_Mailer($transport);
 
             // Create a message
                 $message = (new Swift_Message(("$email ($objet_demande)")))
-                    ->setFrom([PARAMS['sender'] => 'contacthetafrance@gmail.com'])
+                    ->setFrom(['contacthetafrance@gmail.com'], PARAMS['sender'])
                     ->setTo([PARAMS['contact_mail']])
                     ->setBody(
                         "<b>Nom : </b>".$nom."<br>".
