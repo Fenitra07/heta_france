@@ -150,9 +150,9 @@
 					</small>
 				</p>
 				<ul class="footer_padding">
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a target="_blank" href="https://www.facebook.com/profile.php?id=100089764946920"><i class="icon-facebook2"></i></a></li>
+					<li><a target="_blank" href="https://www.instagram.com/heta.france/?fbclid=IwAR1WoUAfW7SSpGzd9AcGE0kJ19YexwOHwyoy1tjvfQXFcVl4_EiqKEDs0FE"><i class="icon-instagram"></i></a></li>
 					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
 					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
 				</ul>
 				<p class="footer_padding">
